@@ -28,6 +28,8 @@ def registro_evento():
         dia_n=fecha_procesada.day
         print(dict(salas.items()))
         clave=input('Escribe el código de la sala que desee reservar')
+    else:
+        print("Cliente no encontrado")
         for clave in salas:
             if claves > 1:
                 print('Fecha ocupada')
