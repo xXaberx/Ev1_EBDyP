@@ -29,7 +29,7 @@ def registro_evento():
         print(dict(salas.items()))
         clave=input('Escribe el código de la sala que desee reservar')
     else:
-        print("Cliente no encontrado")
+        print("Cliente no registrado")
         for clave in salas:
             if claves > 1:
                 print('Fecha ocupada')
